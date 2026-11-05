@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title desc">
+  <title id="title">Karl Li — Research in Algorithms, Statistics and Machine Learning</title>
+  <desc id="desc">Dark navy academic banner with blue and turquoise accents and a schematic network and sequential decision process.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#10192e"/>
+      <stop offset="0.63" stop-color="#152743"/>
+      <stop offset="1" stop-color="#102238"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0" stop-color="#7ccaf8"/>
+      <stop offset="1" stop-color="#56e0c8"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#7ccaf8" stop-opacity="0"/>
+      <stop offset="1" stop-color="#7ccaf8" stop-opacity=".55"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#c7ddf3" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="300" rx="16"/></clipPath>
+    <filter id="glow"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="300" fill="url(#bg)"/>
+    <rect width="1280" height="300" fill="url(#grid)"/>
+    <circle cx="1135" cy="35" r="150" fill="#4a85b9" opacity=".15" filter="url(#glow)"/>
+    <circle cx="980" cy="270" r="125" fill="#38b6ac" opacity=".11" filter="url(#glow)"/>
+    <rect x="0" y="0" width="10" height="300" fill="url(#accent)"/>
+
+    <text x="69" y="60" fill="#8fb1d0" font-size="17" letter-spacing="3.2" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-weight="600">UNIVERSITY OF MICHIGAN  /  RESEARCH PORTFOLIO</text>
+    <text x="65" y="145" fill="#ffffff" font-size="69" letter-spacing="-1.2" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-weight="750">KARL LI</text>
+    <rect x="69" y="168" width="85" height="4" rx="2" fill="url(#accent)"/>
+    <text x="69" y="211" fill="#dce9f6" font-size="25" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-weight="450">Algorithms  ·  Statistics  ·  Machine Learning</text>
+    <text x="69" y="250" fill="#8fb1d0" font-size="17" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif">Theory, inference, and decision-making under uncertainty</text>
+
+    <!-- A restrained network diagram suggests online decisions and optimization. -->
+    <g opacity=".55" stroke="#8cb6d4" fill="none" stroke-width="1.6">
+      <path d="M 877 65 L 980 44 L 1091 87 L 1204 51"/>
+      <path d="M 877 65 L 917 145 L 1018 127 L 1091 87 L 1191 159"/>
+      <path d="M 917 145 L 991 226 L 1107 228 L 1191 159"/>
+      <path d="M 980 44 L 1018 127 L 1107 228"/>
+      <path d="M 1091 87 L 1107 228 L 1204 51"/>
+      <path d="M 877 65 L 991 226"/>
+    </g>
+    <path d="M 877 65 C 926 99 943 126 1018 127 S 1131 135 1191 159" fill="none" stroke="#5ce3c9" stroke-opacity=".23" stroke-width="13" stroke-linecap="round"/>
+    <path d="M 877 65 C 926 99 943 126 1018 127 S 1131 135 1191 159" fill="none" stroke="#6cebd4" stroke-width="3.6" stroke-linecap="round"/>
+    <g fill="#18304b" stroke="#83bfe8" stroke-width="2.4">
+      <circle cx="877" cy="65" r="7"/><circle cx="980" cy="44" r="7"/><circle cx="1091" cy="87" r="7"/><circle cx="1204" cy="51" r="7"/>
+      <circle cx="917" cy="145" r="7"/><circle cx="1018" cy="127" r="8"/><circle cx="1191" cy="159" r="9"/>
+      <circle cx="991" cy="226" r="7"/><circle cx="1107" cy="228" r="7"/>
+    </g>
+    <g fill="#5ce3c9" stroke="#b8fff0" stroke-width="1.8">
+      <circle cx="877" cy="65" r="5"/><circle cx="1018" cy="127" r="6"/><circle cx="1191" cy="159" r="6"/>
+    </g>
+    <path d="M 827 255 Q 1027 185 1250 255" fill="none" stroke="url(#fade)" stroke-width="1.6" stroke-dasharray="4 7"/>
+    <text x="1205" y="278" text-anchor="end" fill="#b3d0e3" opacity=".6" font-size="13" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" letter-spacing="1">RESEARCH  /  CODE  /  IDEAS</text>
+  </g>
+</svg>
